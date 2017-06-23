@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gallery</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery-3.2.0.js"></script>
+
+
+</head>
+<body>
+<header>
+
+
+    <div class="Home">
+    <a href="index.html">Homepage</a>
+        </div>
+       <div class="Portfolio">
+    <a href="portfolio.html">Portfolio</a>
+       </div>
+
+       <div class="contact">
+    <a href="contact.html">Contact</a>
+       </div>
+
+
+</header>
+
+
+
+
+<div class="gallery">
+    <div class="main_image">
+        <img src="assets/cliff.jpg" />
+    </div>
+
+    <div class="selection_image">
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/cliff2.jpg" />
+        </div>
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/cliff3.jpg" />
+        </div>
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/cliff4.jpg" />
+        </div>
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/cliff5.jpg" />
+        </div>
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/cliff6.jpg" />
+        </div>
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/cliff7.jpg" />
+        </div>
+
+        </div>
+    </div>
+
+<h2>My Bio</h2>
+<p class="home_text">Name:Cliff Denzel</p><br>
+   <p class="para">Surname:Nyashanu<br>
+i was born December 28 1994 in Zimbabwe Harare, then moved to Cape town in 2006, i went to Cravenby Secondary School, Graduated 2014.<br>
+       i was a prefect at school, also got to Captain the under 19 soccer team at school.<br>
+i'm passionate  about Computers, Specifically programming, bringing new innovative ways to improve the computer industry of which i'm still learning the different computer Languages, like <br>
+       .HTML,<br>
+       CCS,<br>
+       JAVASCRIPT,<br>
+       JQUERY,<br>
+       and couple of frame works like SKELETON AND BOOTSTRAP.<br>
+    i'm more curious about learning more each and everyday</p>
+
+<div>
+<footer style="color: red">
+    Cliff@codespace
+</footer>
+</div>
+</body>
+</html>
+
+
+
+<script>
+
+
+
+    $(document).ready(function(){
+        $('.thumb').hover(function(){
+            $('.main_image img').attr('src',$(this).children('img').attr('src'));
+        });
+    })
+    
+ $(document).ready(function () {
+     $('.home_text').hover(function () {
+         $(".home_text").toggle("very_slow");
+         
+     })
+ })   
+    
+    
+    
+</script>
