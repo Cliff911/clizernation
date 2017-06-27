@@ -1,11 +1,6 @@
 
 
 
-body{
-    
-    
-    background-image: url("assets/background.jpg");
-}
 
 #wrapper {
     padding: 1px;
@@ -45,7 +40,7 @@ header{
 
 }
 .my_info{
-    color: red;
+    color: #f3f6ed;
 
 
 }
@@ -91,15 +86,15 @@ header{
 }
 .absolute-text{
 
-    color: darkorange;
+    color: #050505;
 }
 .css_text{
 
-    color: darkorange;
+    color: #0e0b0b;
 }
 .jquery_text{
 
-    color: #dddddd;
+    color: #190810;
 }
 footer{
     text-align: center;
@@ -121,7 +116,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #474faf;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -130,7 +125,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2f32a0;
 }
 
 .container {
@@ -139,9 +134,19 @@ input[type=submit]:hover {
     padding: 20px;
 }
 .contact_form{
-
+      width: 50%;
+      float: left;
     color: darkseagreen;
 }
 .para{
-    color: #45a049;
+    color: black;
+}
+.my_info{
+
+    float: left;
+    color: black;
+    padding-bottom: 14px;
+    padding-top: 0px;
+    padding-left: 33px;
+
 }
